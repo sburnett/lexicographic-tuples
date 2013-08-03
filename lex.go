@@ -1,7 +1,6 @@
 /*
-	This package encodes tuples of values (i.e., strings and integers) into
-	byte strings, preserving the order of the encoded tuples when sorted
-	lexicographically.
+	This package encodes tuples of values into byte strings, preserving the
+	order of the encoded tuples when sorted lexicographically.
 
 	(x1, x2, ..., xn) < (y1, y2, ..., yn) iff bytes.Compare(Encode(x1, x2, ..., xn), Encode(y1, y2, ..., yn)) < 0.
 
