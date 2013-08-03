@@ -22,3 +22,5 @@ var meaningOfLife int32
 lex.DecodeOrDie(encodedValue, &greeting, &meaningOfLife)
 
 ```
+
+[![Build Status](https://travis-ci.org/sburnett/lexicographic-tuples.png)](https://travis-ci.org/sburnett/lexicographic-tuples)
